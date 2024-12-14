@@ -217,9 +217,36 @@ header{
   }
   /*agora é os paineis*/
 
-  .painelEco{
-    width: 60%;
-    height: 500px;
+  .painel{
+    width: 840px;
+    height: 450px;
     object-fit: cover;
-    box-shadow: #000000;
+    box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
+    margin-top: 30px;
+    
+    
+    
+  }
+  .Eco{
+    left: 0;
+  }
+  .agile{
+    position: absolute;
+    right: 0;
+    margin-top: 50px;
+    
+  }
+  .conteinerAgile{
+    position: relative;
+  }
+  .conteinerEco{
+    display: grid;
+    grid-template-columns: auto auto; 
+    column-gap: 15px;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  .conteinerEco h1{
+    font-family: "Orbitron", sans-serif;
+    font-size: 25px;
   }
