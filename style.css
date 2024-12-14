@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.espaco{
+  height: 100px;
+  width: 100%;
+  background-color: #ffffff;
+}
+body{
+  background-color: #ffffff;
+  height: 1500px;
+}
+header{
+    width: 100%;
+    background-color: #ffffff;
+    height: 90px;
+    
+}
+
+
+.logo{
+  width: 10%;
+  height: 70px;
+  
+}
+.textLogo{
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(98, 0, 148);
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+    
+}
+.textLogo2{
+  font-family: "Prosto One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #303030;
+  font-family: "Titan One", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  
+}
+/*botoes da header*/
+#botao-menu {
+  position: absolute; 
+  right: 5px; 
+  top: 40px; 
+  width: 40px; 
+  height: 40px;
+  background-color: transparent; 
+  border: none;
+  cursor: pointer; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around; 
+  background-color: #8800ff;
+  border-radius: 5px;
+}
+
+#botao-menu span {
+  height: 4px; 
+  width: 100%; 
+  background: black; 
+  border-radius: 2px; 
+}
+  
+  #menu {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    background-color: #ffffff;
+    padding: 10px;
+    opacity: 0;
+    width: 15%;
+    height: 100%;
+    transform: translateX(100%);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  #menu.aberto {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  #menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 35px;
+  }
+  
+  #menu li {
+    margin-bottom: 15px;
+    font-size: 25px;
+    font-family: "Alegreya SC", serif;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+  
+  #menu a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  #menu a:hover {
+    color: #ccc;
+  }
+  #menu.aberto {
+    display: block;
+  }
+
+  /*apartir dq é a parte principal*/
+
+  .textosTitulos{
+    justify-content: center;
+    justify-items: center;
+    font-family: 'Estricta';
+  }
+
+  .realTexto{
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: auto auto; 
+    column-gap: 90px; 
+  }
+
+  .inv{
+    opacity: 0;
+  }
+
+
+  .texto2{
+    max-width: 340px; /* Defina a largura máxima desejada */
+    word-wrap: break-word; /* Permite que palavras longas quebrem para a próxima linha */
+    overflow-wrap: break-word;
+    font-size: 15px;
+    font-family: "Oswald", sans-serif;
+  }
+  strong{
+    font-size: 16px;
+  }
+ 
+  .tituloSeries{
+    justify-content: center;
+    justify-items: center;
+    display: grid;
+    grid-template-columns: auto auto; 
+    column-gap: 600px; 
+  }
+
+  .titulo2{
+    font-size: 15px;
+    font-family: "Orbitron", sans-serif;
+    
+  }
+
+  .bloco{
+    height: 13px;
+    width: 7px;
+    background-color: black;
+    position: absolute;
+    left: 383px;
+    top: 670px;
+  }
+  .titulo1{
+    font-size: 1.75rem;
+    font-family: "Orbitron", sans-serif;
+  }
+  /*texto do negocio em cima*/
+  .linha{
+    height: 3px;
+    width:100%;
+    background-color: #6000b4; 
+    box-shadow: #6000b4;   
+  }
+  .fotoPrincipal{
+    width: 100%;
+    height: 470px;
+  }
+  button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1;
+    backdrop-filter: blur(4px);
+    height: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    font-size: 30px;
+  }
+
+ .prox{
+    left: 10px;
+    top: 250px;
+    color:#fff;
+  }
+  .antes{
+    right: 10px;
+    top: 250px;
+    color:#fff;
+  }
+  img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+  }
+  /*agora é os paineis*/
+
+  .painelEco{
+    width: 60%;
+    height: 500px;
+    object-fit: cover;
+    box-shadow: #000000;
+  }
