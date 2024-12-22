@@ -160,12 +160,12 @@ header{
   }
 
   .bloco{
-    height: 13px;
+    height: 15px;
     width: 7px;
     background-color: black;
     position: absolute;
     left: 383px;
-    top: 670px;
+    top: 673px;
   }
   .titulo1{
     font-size: 1.75rem;
@@ -237,7 +237,7 @@ header{
     
   }
   .conteinerAgile{
-    position: relative;
+    position:relative;
   }
   .conteinerEco{
     display: grid;
@@ -249,4 +249,16 @@ header{
   .conteinerEco h1{
     font-family: "Orbitron", sans-serif;
     font-size: 25px;
+  }
+
+  /*footer*/
+  footer{
+    background-color: #ff0000;
+    text-align: center; /* Alinha o texto ao centro */
+    padding: 10; /* Espaçamento interno */
+    width: 100%; /* Largura total da página */
+    height: 40px;
+    position: absolute;
+    margin-bottom: 0;
+    
   }
