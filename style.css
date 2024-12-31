@@ -112,6 +112,9 @@ header{
   #menu.aberto {
     display: block;
   }
+  .lancer a:hover {
+    color: #8800ff;
+  }
 
   /*apartir dq é a parte principal*/
 
